@@ -1,0 +1,83 @@
+[
+    {
+        "idx": 1,
+        "titulo": "Rebutia",
+        "descripcion": "Rebutia es un género de cactus pequeños, bonitos y, en general, fáciles de cultivar, requiere poca agua",
+        "imagen": "img/Rebutia.png",
+        "precio": 2500,
+        "categoria": "suculentas",
+        "stock": 5
+    },
+    {
+        "idx": 2,
+        "titulo": "Sedum",
+        "descripcion": "Pequeña planta suculenta de porte rastrero que alcanzan 20 cm de altura, fáciles de cultivar",
+        "imagen":"img/sedum-2.png",
+        "precio": 1800,
+        "categoria":"suculentas",
+        "stock": 4
+    },
+    {
+        "idx": 3,
+        "titulo": "Hawort",
+        "descripcion": "Haworthia fasciata es una planta suculenta de pequeño tamaño de hojas triangulares y muy carnosas.",
+        "imagen": "img/hawort.png",
+        "precio": 2300,
+        "categoria": "suculentas",
+        "stock": 7
+    },
+    {
+        "idx": 4,
+        "titulo": "Begonia",
+        "descripcion": "La begonia maculata es de color verde oscuro, decorado con puntos color plata o blancos, mientras que el envés es de un rojo profundo",
+        "imagen": "img/begonia-1.png",
+        "precio": 2400,
+        "categoria": "interior",
+        "stock": 9
+    },
+    {
+        "idx": 5,
+        "titulo": "Alocasia Amazoica",
+        "descripcion": "Alocasia Amazonica llamativa por sus hojas singulares, necesita luz natural brillante pero no sol directo. Requiere de alta humedad ambiente y no tolera el frío",
+        "imagen": "img/amazonica-1.png",
+        "precio": 3800,
+        "categoria": "interior",
+        "stock": 3
+    },
+    {
+        "idx": 6,
+        "titulo": "Potus",
+        "descripcion": "El Potus Lemon es una planta de interior de hojas amarillas y verdes brillantes, requiere muy poco cuidado y soporta la luz directa del sol",
+        "imagen": "img/potus-1.png",
+        "precio": 2500,
+        "categoria": "interior",
+        "stock": 4
+    },
+    {
+        "idx": 7,
+        "titulo": "Hornero Agua",
+        "descripcion": "Todas nuestras macetas hornero vienen con suculenta o cactus de regalo. Son ideales para regalar y las podés ubicar tanto en interiores como en exteriores",
+        "imagen": "img/Hornero-agua.png",
+        "precio": 4500,
+        "categoria": "macetas",
+        "stock": 5
+    },
+    {
+        "idx": 8,
+        "titulo": "Hornero Aloha",
+        "descripcion": "Todas nuestras macetas hornero vienen con suculenta o cactus de regalo. Son ideales para regalar y las podés ubicar tanto en interiores como en exteriores",
+        "imagen": "img/Hornero-aloha.png",
+        "precio": 4500,
+        "categoria": "macetas",
+        "stock": 7
+    },
+    {
+        "idx": 9,
+        "titulo": "Hornero flor",
+        "descripcion": "Todas nuestras macetas hornero vienen con suculenta o cactus de regalo. Son ideales para regalar y las podés ubicar tanto en interiores como en exteriores",
+        "imagen": "img/Hornero-flor.png",
+        "precio": 4500,
+        "categoria": "macetas",
+        "stock": 15
+    }
+]
