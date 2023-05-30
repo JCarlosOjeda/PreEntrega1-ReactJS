@@ -1,5 +1,5 @@
 import Carrito from "./img/carrito.svg"
-const Cart = () => {
+const CartWidget = () => {
     return (
         <button type="button" className="btn btn-ligth position-relative">
             <img src={Carrito} alt="Carrito" width={30} />
@@ -11,4 +11,4 @@ const Cart = () => {
     )
 }
 
-export default Cart;
+export default CartWidget;

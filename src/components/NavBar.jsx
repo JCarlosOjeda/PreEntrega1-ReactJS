@@ -1,4 +1,4 @@
-import Cart from "./Cart";
+import CartWidget from "./CartWidget";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -24,7 +24,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className="col-md-4 text-end">
-        <Cart />
+        <CartWidget />
       </div>
     </div>
 

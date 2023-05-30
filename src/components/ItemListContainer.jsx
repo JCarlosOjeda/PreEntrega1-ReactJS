@@ -20,7 +20,7 @@ const ItemListContainer = () => {
     }, [id]);
 
     return (
-        <div className="container my-5">
+        <div className="container my-1">
             <div className="row">
                 <ItemList productos={items} />
             </div >
