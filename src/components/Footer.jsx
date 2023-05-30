@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-3">
-                        <Link to={"/"} className="text-dark text-decoration-none"> <h3>Buscar en Tienda</h3></Link>
+                        <Link to={"/"} className="text-dark text-decoration-none"> <h3>Volver al inicio</h3></Link>
                     </div>
                     <div className="col-md-3">
                         <h3>Quienes Somos</h3>

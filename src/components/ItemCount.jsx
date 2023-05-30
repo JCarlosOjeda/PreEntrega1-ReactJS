@@ -8,7 +8,6 @@ const ItemCount = ({ stock }) => {
         if (items < itemStock) {
             setItems(items + 1);
         }
-
     }
 
     const decrementarStock = () => {
@@ -22,13 +21,16 @@ const ItemCount = ({ stock }) => {
             setItemStock(itemStock - items);
             setItems(1);
             console.log("Agregaste: " + items + " Productos al carrito");
-            console.log("Te quedan:" + (itemStock -items) + " Disponibles");
+            console.log("Te quedan:" + (itemStock - items) + " Disponibles");
         }
     }
 
     useEffect(() => {
         setItemStock(stock);
     }, [stock]);
+
+    const stockMessage = itemStock > 0 ? "Tenemos" : "Pronto Vamos a Reponer";
+    const stockMessageClass = itemStock > 0 ? "hayStock" : "sinStock";
 
     return (
         <div className="container">
@@ -44,6 +46,7 @@ const ItemCount = ({ stock }) => {
             <div className="row">
                 <div className="col">
                     <button type="button" className="btn btn-light card" onClick={onAdd}>Agregar al carrito</button>
+                    <p className={stockMessageClass}>{stockMessage}</p>
                 </div>
             </div>
         </div>
