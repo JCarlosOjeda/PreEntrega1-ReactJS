@@ -1,83 +1,165 @@
 [
-    {
-        "idx": 1,
-        "titulo": "Rebutia",
-        "descripcion": "Rebutia es un género de cactus pequeños, bonitos y, en general, fáciles de cultivar, requiere poca agua",
-        "imagen": "/img/Rebutia.png",
-        "precio": 2500,
-        "categoria": "suculentas",
-        "stock": 5
-    },
-    {
-        "idx": 2,
-        "titulo": "Sedum",
-        "descripcion": "Pequeña planta suculenta de porte rastrero que alcanzan 20 cm de altura, fáciles de cultivar",
-        "imagen":"/img/sedum-2.png",
-        "precio": 1800,
-        "categoria":"suculentas",
-        "stock": 4
-    },
-    {
-        "idx": 3,
-        "titulo": "Hawort",
-        "descripcion": "Haworthia fasciata es una planta suculenta de pequeño tamaño de hojas triangulares y muy carnosas.",
-        "imagen": "/img/hawort.png",
-        "precio": 2300,
-        "categoria": "suculentas",
-        "stock": 7
-    },
-    {
-        "idx": 4,
-        "titulo": "Begonia",
-        "descripcion": "La begonia maculata es de color verde oscuro, decorado con puntos color plata o blancos, mientras que el envés es de un rojo profundo",
-        "imagen": "/img/begonia-1.png",
-        "precio": 2400,
-        "categoria": "interior",
-        "stock": 9
-    },
-    {
-        "idx": 5,
-        "titulo": "Alocasia Amazoica",
-        "descripcion": "Alocasia Amazonica llamativa por sus hojas singulares, necesita luz natural brillante pero no sol directo. Requiere de alta humedad ambiente y no tolera el frío",
-        "imagen": "/img/amazonica-1.png",
-        "precio": 3800,
-        "categoria": "interior",
-        "stock": 3
-    },
-    {
-        "idx": 6,
-        "titulo": "Potus",
-        "descripcion": "El Potus Lemon es una planta de interior de hojas amarillas y verdes brillantes, requiere muy poco cuidado y soporta la luz directa del sol",
-        "imagen": "/img/potus-1.png",
-        "precio": 2500,
-        "categoria": "interior",
-        "stock": 4
-    },
-    {
-        "idx": 7,
-        "titulo": "Hornero Agua",
-        "descripcion": "Todas nuestras macetas hornero vienen con suculenta o cactus de regalo. Son ideales para regalar y las podés ubicar tanto en interiores como en exteriores",
-        "imagen": "/img/Hornero-agua.png",
-        "precio": 4500,
-        "categoria": "macetas",
-        "stock": 5
-    },
-    {
-        "idx": 8,
-        "titulo": "Hornero Aloha",
-        "descripcion": "Todas nuestras macetas hornero vienen con suculenta o cactus de regalo. Son ideales para regalar y las podés ubicar tanto en interiores como en exteriores",
-        "imagen": "/img/Hornero-aloha.png",
-        "precio": 4500,
-        "categoria": "macetas",
-        "stock": 7
-    },
-    {
-        "idx": 9,
-        "titulo": "Hornero flor",
-        "descripcion": "Todas nuestras macetas hornero vienen con suculenta o cactus de regalo. Son ideales para regalar y las podés ubicar tanto en interiores como en exteriores",
-        "imagen": "/img/Hornero-flor.png",
-        "precio": 4500,
-        "categoria": "macetas",
-        "stock": 15
-    }
+  {
+      "idx": 1,
+      "titulo": "Rebutia",
+      "descripcion": "Rebutia es un género de cactus pequeños, bonitos y, en general, fáciles de cultivar, requiere poca agua",
+      "imagen": "/img/Rebutia.png",
+      "precio": 2500,
+      "categoria": "suculentas",
+      "stock": 5
+  },
+  {
+      "idx": 2,
+      "titulo": "Sedum",
+      "descripcion": "Pequeña planta suculenta de porte rastrero que alcanzan 20 cm de altura, fáciles de cultivar",
+      "imagen":"/img/sedum-2.png",
+      "precio": 1800,
+      "categoria":"suculentas",
+      "stock": 4
+  },
+  {
+      "idx": 3,
+      "titulo": "Hawort",
+      "descripcion": "Haworthia fasciata es una planta suculenta de pequeño tamaño de hojas triangulares y muy carnosas.",
+      "imagen": "/img/hawort.png",
+      "precio": 2300,
+      "categoria": "suculentas",
+      "stock": 7
+  },
+  {
+      "idx": 4,
+      "titulo": "Begonia",
+      "descripcion": "La begonia maculata es de color verde oscuro, decorado con puntos color plata o blancos, mientras que el envés es de un rojo profundo",
+      "imagen": "/img/begonia-1.png",
+      "precio": 2400,
+      "categoria": "interior",
+      "stock": 9
+  },
+  {
+      "idx": 5,
+      "titulo": "Alocasia Amazoica",
+      "descripcion": "Alocasia Amazonica llamativa por sus hojas singulares, necesita luz natural brillante pero no sol directo. Requiere de alta humedad ambiente y no tolera el frío",
+      "imagen": "/img/amazonica-1.png",
+      "precio": 3800,
+      "categoria": "interior",
+      "stock": 3
+  },
+  {
+      "idx": 6,
+      "titulo": "Potus",
+      "descripcion": "El Potus Lemon es una planta de interior de hojas amarillas y verdes brillantes, requiere muy poco cuidado y soporta la luz directa del sol",
+      "imagen": "/img/potus-1.png",
+      "precio": 2500,
+      "categoria": "interior",
+      "stock": 4
+  },
+  {
+      "idx": 7,
+      "titulo": "Hornero Agua",
+      "descripcion": "Todas nuestras macetas hornero vienen con suculenta o cactus de regalo. Son ideales para regalar y las podés ubicar tanto en interiores como en exteriores",
+      "imagen": "/img/Hornero-agua.png",
+      "precio": 4500,
+      "categoria": "macetas",
+      "stock": 5
+  },
+  {
+      "idx": 8,
+      "titulo": "Hornero Aloha",
+      "descripcion": "Todas nuestras macetas hornero vienen con suculenta o cactus de regalo. Son ideales para regalar y las podés ubicar tanto en interiores como en exteriores",
+      "imagen": "/img/Hornero-aloha.png",
+      "precio": 4500,
+      "categoria": "macetas",
+      "stock": 7
+  },
+  {
+      "idx": 9,
+      "titulo": "Hornero Flor",
+      "descripcion": "Todas nuestras macetas hornero vienen con suculenta o cactus de regalo. Son ideales para regalar y las podés ubicar tanto en interiores como en exteriores",
+      "imagen": "/img/Hornero-flor.png",
+      "precio": 4500,
+      "categoria": "macetas",
+      "stock": 15
+  },
+  {
+      "idx": 10,
+      "titulo": "Echeveria",
+      "descripcion": "Las Echeverias son suculentas que forman rosetas compactas con hojas carnosas de diversos colores",
+      "imagen": "/img/echeveria.png",
+      "precio": 2100,
+      "categoria": "suculentas",
+      "stock": 8
+  },
+  {
+      "idx": 11,
+      "titulo": "Sansevieria",
+      "descripcion": "La Sansevieria, conocida popularmente como lengua de suegra, es una planta suculenta muy resistente y fácil de cuidar",
+      "imagen": "/img/sansevieria.png",
+      "precio": 1700,
+      "categoria": "suculentas",
+      "stock": 6
+  },
+  {
+      "idx": 12,
+      "titulo": "Monstera Deliciosa",
+      "descripcion": "La Monstera Deliciosa es una planta de interior con hojas grandes y perforadas, ideal para dar un toque tropical al hogar",
+      "imagen": "/img/monstera.png",
+      "precio": 3200,
+      "categoria": "interior",
+      "stock": 2
+  },
+  {
+      "idx": 13,
+      "titulo": "Calathea",
+      "descripcion": "Las Calatheas son plantas de interior con hojas decorativas que presentan diferentes patrones y colores",
+      "imagen": "/img/calathea.png",
+      "precio": 2900,
+      "categoria": "interior",
+      "stock": 5
+  },
+  {
+      "idx": 14,
+      "titulo": "Retro",
+      "descripcion": "Version actual de la clasica maceta antigua de cerámica esmaltada a mano 9cm.",
+      "imagen": "/img/retro.png",
+      "precio": 4500,
+      "categoria": "macetas",
+      "stock": 3
+  },
+  {
+      "idx": 15,
+      "titulo": "Potos Maceta",
+      "descripcion": "El Potus Maceta es una planta de interior muy popular por su fácil cuidado y su capacidad para purificar el aire",
+      "imagen": "/img/potus-maceta.png",
+      "precio": 2700,
+      "categoria": "interior",
+      "stock": 7
+  },
+  {
+      "idx": 16,
+      "titulo": "Bohemia Rosa",
+      "descripcion": "Maceta de cerámica esmaltada a mano, estilo ''Boho Chic de 20 cm de diámetro por 20 cm de alto",
+      "imagen": "/img/bohemia-rosa.png",
+      "precio": 8500,
+      "categoria": "macetas",
+      "stock": 3
+  },
+  {
+      "idx": 17,
+      "titulo": "Crassula",
+      "descripcion": "Las Crassulas son suculentas compactas y resistentes, ideales para cultivar en macetas pequeñas",
+      "imagen": "/img/crassula.png",
+      "precio": 1900,
+      "categoria": "suculentas",
+      "stock": 4
+  },
+  {
+      "idx": 18,
+      "titulo": "Colgante Cesta",
+      "descripcion": "Maceta colgante de cerámica esmaltada a mano, con 3 tiras de cordón de yute y argolla metálica, 10 cm de diámetro por 11 de alto",
+      "imagen": "/img/colgante-cesta.png",
+      "precio": 6000,
+      "categoria": "macetas",
+      "stock": 6
+  }
 ]
+

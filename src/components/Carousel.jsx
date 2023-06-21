@@ -3,9 +3,9 @@ import React from "react";
 const Carousel = () => {
   return (
     <div className="container">
-      <div className="row justify-content-center p-5">
+      <div className="row justify-content-center ">
         <div className="col-sm-12 col-md-8">
-          <div id="carouselExampleFade" className="carousel slide carousel-fade carousel-dark slide" data-bs-ride="carousel">
+          <div id="carouselExampleFade" className="carousel slide carousel-fade carousel-dark slide carousel-small" data-bs-ride="carousel">
             <div className="carousel-inner"> 
               <div className="carousel-item active">
                 <img src={"./img/mensaje1.png"} className="d-block w-100" alt="mensaje1" />

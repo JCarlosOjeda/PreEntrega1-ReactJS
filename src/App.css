@@ -23,3 +23,36 @@ h1 {
   .sinStock {
     color: rgb(255, 85, 0);
   }
+
+  .cart{
+    font-family: roboto;
+  }
+
+  .red{
+  color: red;
+    }
+
+    .tabla{
+      font-size: 0.8rem;      
+  }
+
+  .trashTabla{
+    width: 20px;
+  }
+
+  .imgTabla{
+    width: 40px;
+  }
+
+  @media ( min-width:768px) {
+    .tabla{ font-size: 2rem;}
+    .imgTabla{ width: 80px;}
+    .trashTabla{width: 32px;}
+  }
+    
+  
+
+  .carousel-small {
+    transform: scale(0.8);
+  }
+  
