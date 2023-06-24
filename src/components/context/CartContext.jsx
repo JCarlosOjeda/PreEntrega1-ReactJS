@@ -6,8 +6,8 @@ const CartContextProvider = ({children}) => {
     const [cart, setCart] = useState ([]);
 
     const addItem = (item, quantity) => {
-        if (isInCart(item.idx)) {
-            let pos = cart.findIndex(product => product.id === item.idx);
+        if (isInCart(item.id)) {
+            let pos = cart.findIndex(product => product.id === item.id);
             cart[pos].cantidad += quantity;
             setCart([...cart]);
         } else {
@@ -15,8 +15,8 @@ const CartContextProvider = ({children}) => {
         }
     };
 
-    const removeItem = (idx) => {
-        const items = cart.filter(product => product.idx !== idx);
+    const removeItem = (id) => {
+        const items = cart.filter(product => product.id !== id);
         setCart([...items]);
     };
 

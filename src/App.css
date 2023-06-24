@@ -32,8 +32,12 @@ h1 {
   color: red;
     }
 
+    .green{
+      color: green;
+    }
+
     .tabla{
-      font-size: 0.8rem;      
+      font-size: 1rem;      
   }
 
   .trashTabla{

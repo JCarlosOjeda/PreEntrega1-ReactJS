@@ -38,19 +38,19 @@ const Cart = () => {
                             </tr>
                             {
                                 cart.map(item => (
-                                    <tr key={item.idx}>
+                                    <tr key={item.id}>
                                         <td><img className="imgTabla" src={item.imagen} alt={item.titulo} /></td>
-                                        <td>{item.titulo}</td>
-                                        <td>{item.cantidad} x ${item.precio}</td>
-                                        <td className="text-center">${item.cantidad * item.precio}</td>
-                                        <td className="text-end"><button className="btn btn-light" onClick={() => {removeItem(item.idx)}} title="Eliminar Producto"><img className="trashTabla" src={trash} alt="Eliminar Producto"  /></button></td>
+                                        <td className="align-middle">{item.titulo}</td>
+                                        <td className="align-middle">{item.cantidad} x ${item.precio}</td>
+                                        <td className="text-center align-middle">${item.cantidad * item.precio}</td>
+                                        <td className="text-end align-middle"><button className="btn btn-light" onClick={() => {removeItem(item.id)}} title="Eliminar Producto"><img className="trashTabla" src={trash} alt="Eliminar Producto"  /></button></td>
                                     </tr>
                                 ))
                             }
                             <tr>
-                                <td colSpan={3} className="text-end">Total a Pagar</td>
-                                <td className="text-center">${sumTotal()}</td>
-                                <td>&nbsp;</td>
+                                <td colSpan={3} className="text-end align-middle">Total a Pagar</td>
+                                <td className="text-center align-middle">${sumTotal()}</td>
+                                <td className="text-end align-middle"><Link to={"/checkout"} className="btn bg-success-subtle  tabla">Finalizar Compra</Link></td>
                             </tr>
                         </tbody>
                     </table>
